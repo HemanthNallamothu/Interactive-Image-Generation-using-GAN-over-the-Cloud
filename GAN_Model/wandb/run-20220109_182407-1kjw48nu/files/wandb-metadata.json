@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2022-01-09T12:54:12.489916",
+    "startedAt": "2022-01-09T12:54:07.780441",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--dataroot",
+        "./datasets/facades",
+        "--name",
+        "facades_label2photo",
+        "--model",
+        "cycle_gan",
+        "--use_wandb",
+        "--gpu_ids",
+        "-1"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/HemanthNallamothu/pytorch-CycleGAN-and-pix2pix",
+        "commit": "00d5574908eb66fe0127b32d7b030001453f21d0"
+    },
+    "email": "hemanthnallamothu06@gmail.com",
+    "root": "C:/Users/Hemanth/Notebooks/Project/Mini Project/pytorch-CycleGAN-and-pix2pix",
+    "host": "1--Silvanus--",
+    "username": "Hemanth",
+    "executable": "C:\\Users\\Hemanth\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}

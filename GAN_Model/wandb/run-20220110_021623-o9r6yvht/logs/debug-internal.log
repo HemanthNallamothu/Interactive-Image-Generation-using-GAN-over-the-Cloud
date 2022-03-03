@@ -1,0 +1,932 @@
+2022-01-10 02:16:27,070 INFO    MainThread:15892 [internal.py:wandb_internal():90] W&B internal server running at pid: 15892, started at: 2022-01-10 02:16:27.069083
+2022-01-10 02:16:27,074 INFO    WriterThread:15892 [datastore.py:open_for_write():77] open: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\run-o9r6yvht.wandb
+2022-01-10 02:16:27,075 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: check_version
+2022-01-10 02:16:27,081 DEBUG   SenderThread:15892 [sender.py:send():234] send: header
+2022-01-10 02:16:27,081 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: check_version
+2022-01-10 02:16:28,640 DEBUG   SenderThread:15892 [sender.py:send():234] send: run
+2022-01-10 02:16:29,602 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: run_start
+2022-01-10 02:16:29,620 INFO    SenderThread:15892 [dir_watcher.py:__init__():169] watching files in: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files
+2022-01-10 02:16:29,621 INFO    SenderThread:15892 [sender.py:_start_run_threads():807] run started: o9r6yvht with start time 1641761183
+2022-01-10 02:16:29,621 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:29,637 DEBUG   HandlerThread:15892 [meta.py:__init__():40] meta init
+2022-01-10 02:16:29,637 DEBUG   HandlerThread:15892 [meta.py:__init__():54] meta init done
+2022-01-10 02:16:29,637 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:29,637 DEBUG   HandlerThread:15892 [meta.py:probe():214] probe
+2022-01-10 02:16:29,681 DEBUG   HandlerThread:15892 [meta.py:_setup_git():204] setup git
+2022-01-10 02:16:29,876 DEBUG   HandlerThread:15892 [meta.py:_setup_git():211] setup git done
+2022-01-10 02:16:29,877 DEBUG   HandlerThread:15892 [meta.py:_save_pip():58] save pip
+2022-01-10 02:16:29,880 DEBUG   HandlerThread:15892 [meta.py:_save_pip():72] save pip done
+2022-01-10 02:16:29,881 DEBUG   HandlerThread:15892 [meta.py:probe():252] probe done
+2022-01-10 02:16:30,064 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:30,064 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-01-10 02:16:30,084 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:16:30,085 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:16:30,616 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:16:30,617 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:30,617 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\requirements.txt
+2022-01-10 02:16:30,618 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-metadata.json
+2022-01-10 02:16:30,868 DEBUG   SenderThread:15892 [sender.py:send():234] send: telemetry
+2022-01-10 02:16:31,748 INFO    Thread-17 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\s8zknjg4-wandb-metadata.json
+2022-01-10 02:16:32,633 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:16:32,914 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:32,915 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_0_121f898fe97c9363a28e.png with policy now
+2022-01-10 02:16:32,918 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:32,919 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_0_47980c52f0e57f53a37d.png with policy now
+2022-01-10 02:16:32,922 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:32,923 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:32,925 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:33,661 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:33,661 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_0_121f898fe97c9363a28e.png
+2022-01-10 02:16:33,662 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_0_47980c52f0e57f53a37d.png
+2022-01-10 02:16:33,663 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media
+2022-01-10 02:16:33,663 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:34,680 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:16:34,708 INFO    Thread-18 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\26m4txyh-media/images/real_0_121f898fe97c9363a28e.png
+2022-01-10 02:16:34,709 INFO    Thread-19 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\gnex4j6i-media/images/fake_0_47980c52f0e57f53a37d.png
+2022-01-10 02:16:34,794 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:34,794 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_1_a32e2231f26ddddc3b70.png with policy now
+2022-01-10 02:16:34,797 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:34,798 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_1_7c107eefd54e363b70ac.png with policy now
+2022-01-10 02:16:34,800 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:34,801 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:34,802 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:35,700 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:35,702 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_1_a32e2231f26ddddc3b70.png
+2022-01-10 02:16:35,703 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_1_7c107eefd54e363b70ac.png
+2022-01-10 02:16:35,703 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:36,621 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:36,621 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_2_4cd423ded1579487f715.png with policy now
+2022-01-10 02:16:36,624 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:36,624 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_2_834350a92d86048446d0.png with policy now
+2022-01-10 02:16:36,628 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:36,628 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:36,632 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:36,684 INFO    Thread-20 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\16wgae01-media/images/real_1_a32e2231f26ddddc3b70.png
+2022-01-10 02:16:36,695 INFO    Thread-21 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\346vqwfg-media/images/fake_1_7c107eefd54e363b70ac.png
+2022-01-10 02:16:36,713 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:36,714 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_2_4cd423ded1579487f715.png
+2022-01-10 02:16:36,715 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_2_834350a92d86048446d0.png
+2022-01-10 02:16:36,715 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:38,218 INFO    Thread-23 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\155w72uu-media/images/fake_2_834350a92d86048446d0.png
+2022-01-10 02:16:38,494 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:38,495 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_3_f9e3b3679f5ed2eadbb9.png with policy now
+2022-01-10 02:16:38,499 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:38,499 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_3_d281f491a79ece86282b.png with policy now
+2022-01-10 02:16:38,504 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:38,504 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:38,507 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:38,542 INFO    Thread-22 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\22eyhj5v-media/images/real_2_4cd423ded1579487f715.png
+2022-01-10 02:16:38,747 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:38,748 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_3_d281f491a79ece86282b.png
+2022-01-10 02:16:38,748 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_3_f9e3b3679f5ed2eadbb9.png
+2022-01-10 02:16:38,749 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:40,141 INFO    Thread-25 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\kzzypgzt-media/images/fake_3_d281f491a79ece86282b.png
+2022-01-10 02:16:40,141 INFO    Thread-24 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\12mf37y0-media/images/real_3_f9e3b3679f5ed2eadbb9.png
+2022-01-10 02:16:40,399 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:40,399 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_4_817d763b382c5e614c69.png with policy now
+2022-01-10 02:16:40,403 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:40,404 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_4_fd48cf325993f37d371a.png with policy now
+2022-01-10 02:16:40,407 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:40,407 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:40,409 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:40,759 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:40,759 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_4_817d763b382c5e614c69.png
+2022-01-10 02:16:40,760 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_4_fd48cf325993f37d371a.png
+2022-01-10 02:16:40,761 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:42,211 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:42,211 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_5_5424a19ac07216286a05.png with policy now
+2022-01-10 02:16:42,215 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:42,215 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_5_a38d68dbb822da23c5e1.png with policy now
+2022-01-10 02:16:42,219 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:42,220 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:42,224 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:42,272 INFO    Thread-27 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\28nu45ny-media/images/fake_4_fd48cf325993f37d371a.png
+2022-01-10 02:16:42,272 INFO    Thread-26 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\39zllo6i-media/images/real_4_817d763b382c5e614c69.png
+2022-01-10 02:16:42,793 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:42,794 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_5_5424a19ac07216286a05.png
+2022-01-10 02:16:42,794 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_5_a38d68dbb822da23c5e1.png
+2022-01-10 02:16:42,795 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:43,981 INFO    Thread-29 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\8ubf9wi1-media/images/fake_5_a38d68dbb822da23c5e1.png
+2022-01-10 02:16:43,982 INFO    Thread-28 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\ggb3uz8d-media/images/real_5_5424a19ac07216286a05.png
+2022-01-10 02:16:44,071 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:44,071 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_6_67fa4134aa28feb4e18a.png with policy now
+2022-01-10 02:16:44,075 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:44,075 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_6_8c1f1e789714f3c609fa.png with policy now
+2022-01-10 02:16:44,080 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:44,080 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:44,083 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:44,825 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:16:44,825 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:44,826 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_6_8c1f1e789714f3c609fa.png
+2022-01-10 02:16:44,827 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_6_67fa4134aa28feb4e18a.png
+2022-01-10 02:16:44,827 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:45,660 INFO    Thread-30 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\nuw6ss81-media/images/real_6_67fa4134aa28feb4e18a.png
+2022-01-10 02:16:45,875 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:16:45,876 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:16:46,142 INFO    Thread-31 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\168sgs2g-media/images/fake_6_8c1f1e789714f3c609fa.png
+2022-01-10 02:16:46,380 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:46,381 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_7_5069e5e9756e7b76e356.png with policy now
+2022-01-10 02:16:46,385 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:46,385 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_7_65a829e835f77c006265.png with policy now
+2022-01-10 02:16:46,390 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:46,390 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:46,393 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:46,842 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:46,843 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_7_5069e5e9756e7b76e356.png
+2022-01-10 02:16:46,843 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_7_65a829e835f77c006265.png
+2022-01-10 02:16:46,844 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:47,690 INFO    Thread-32 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\29wm1i1i-media/images/real_7_5069e5e9756e7b76e356.png
+2022-01-10 02:16:47,787 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:47,788 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_8_a3ca71dbe5baecd18d9e.png with policy now
+2022-01-10 02:16:47,794 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:47,794 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_8_a19473f916389374620e.png with policy now
+2022-01-10 02:16:47,799 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:47,799 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:47,808 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:47,855 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:47,856 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_8_a3ca71dbe5baecd18d9e.png
+2022-01-10 02:16:47,856 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_8_a19473f916389374620e.png
+2022-01-10 02:16:47,857 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:48,227 INFO    Thread-33 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3n91a5bt-media/images/fake_7_65a829e835f77c006265.png
+2022-01-10 02:16:49,638 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:49,639 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_9_767b41a0d990fc4233ab.png with policy now
+2022-01-10 02:16:49,645 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:49,645 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_9_d878695f213b3ab3df26.png with policy now
+2022-01-10 02:16:49,651 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:49,651 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:49,658 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:49,701 INFO    Thread-34 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\20y4dhba-media/images/real_8_a3ca71dbe5baecd18d9e.png
+2022-01-10 02:16:49,701 INFO    Thread-35 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\13gqq9bp-media/images/fake_8_a19473f916389374620e.png
+2022-01-10 02:16:49,883 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:49,884 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_9_d878695f213b3ab3df26.png
+2022-01-10 02:16:49,884 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_9_767b41a0d990fc4233ab.png
+2022-01-10 02:16:49,885 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:51,154 INFO    Thread-36 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1ahce73l-media/images/real_9_767b41a0d990fc4233ab.png
+2022-01-10 02:16:51,168 INFO    Thread-37 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\qjemapji-media/images/fake_9_d878695f213b3ab3df26.png
+2022-01-10 02:16:51,439 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:51,439 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_10_5abeb4c52c3a8ef95427.png with policy now
+2022-01-10 02:16:51,442 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:51,443 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_10_319ad1e9cb27a093312c.png with policy now
+2022-01-10 02:16:51,449 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:51,449 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:51,457 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:51,904 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:51,905 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_10_319ad1e9cb27a093312c.png
+2022-01-10 02:16:51,906 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_10_5abeb4c52c3a8ef95427.png
+2022-01-10 02:16:51,906 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:52,919 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:16:53,136 INFO    Thread-38 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1rn7mekh-media/images/real_10_5abeb4c52c3a8ef95427.png
+2022-01-10 02:16:53,235 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:53,235 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_11_31867c22fffc72a0336d.png with policy now
+2022-01-10 02:16:53,241 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:53,241 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_11_b7bf8d859484d64c9195.png with policy now
+2022-01-10 02:16:53,249 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:53,250 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:53,251 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:53,571 INFO    Thread-39 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2kxtydh8-media/images/fake_10_319ad1e9cb27a093312c.png
+2022-01-10 02:16:53,931 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:53,932 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_11_31867c22fffc72a0336d.png
+2022-01-10 02:16:53,933 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_11_b7bf8d859484d64c9195.png
+2022-01-10 02:16:53,933 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:54,858 INFO    Thread-41 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\323u5rq6-media/images/fake_11_b7bf8d859484d64c9195.png
+2022-01-10 02:16:54,864 INFO    Thread-40 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3p8ss8bq-media/images/real_11_31867c22fffc72a0336d.png
+2022-01-10 02:16:55,062 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:55,062 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_12_a63815e5ef69c52105d3.png with policy now
+2022-01-10 02:16:55,068 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:55,068 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_12_f15aac4d5d00404ddf27.png with policy now
+2022-01-10 02:16:55,081 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:55,081 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:55,083 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:55,950 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:55,951 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_12_a63815e5ef69c52105d3.png
+2022-01-10 02:16:55,951 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_12_f15aac4d5d00404ddf27.png
+2022-01-10 02:16:55,952 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:56,807 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:56,807 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_13_ccc340dc55ea4d9cc94c.png with policy now
+2022-01-10 02:16:56,846 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:56,846 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_13_6685649c1327d147e84d.png with policy now
+2022-01-10 02:16:56,852 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:56,852 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:56,862 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:16:56,912 INFO    Thread-42 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1amebxgz-media/images/real_12_a63815e5ef69c52105d3.png
+2022-01-10 02:16:56,912 INFO    Thread-43 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3bljp0zk-media/images/fake_12_f15aac4d5d00404ddf27.png
+2022-01-10 02:16:56,967 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:16:56,968 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_13_ccc340dc55ea4d9cc94c.png
+2022-01-10 02:16:56,968 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_13_6685649c1327d147e84d.png
+2022-01-10 02:16:56,969 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:16:58,622 INFO    Thread-44 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3h9e4cbf-media/images/real_13_ccc340dc55ea4d9cc94c.png
+2022-01-10 02:16:58,998 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\config.yaml
+2022-01-10 02:16:59,020 INFO    Thread-45 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1zpjvveq-media/images/fake_13_6685649c1327d147e84d.png
+2022-01-10 02:16:59,069 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:59,070 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_14_bc1df6a83e1b6ec2f1ad.png with policy now
+2022-01-10 02:16:59,078 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:16:59,078 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_14_5675c2dff3ac93ea6778.png with policy now
+2022-01-10 02:16:59,091 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:16:59,092 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:16:59,097 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:00,017 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:00,018 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_14_bc1df6a83e1b6ec2f1ad.png
+2022-01-10 02:17:00,019 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_14_5675c2dff3ac93ea6778.png
+2022-01-10 02:17:00,020 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:00,592 INFO    Thread-46 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\30592040-media/images/real_14_bc1df6a83e1b6ec2f1ad.png
+2022-01-10 02:17:00,873 INFO    Thread-47 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2nve99pt-media/images/fake_14_5675c2dff3ac93ea6778.png
+2022-01-10 02:17:01,403 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:17:01,404 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:17:02,003 DEBUG   SenderThread:15892 [sender.py:send():234] send: stats
+2022-01-10 02:17:02,004 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:02,005 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_15_c2f784bf16f4782a58b6.png with policy now
+2022-01-10 02:17:02,018 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:02,019 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_15_224cfd22a1f63d75699b.png with policy now
+2022-01-10 02:17:02,025 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:02,026 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:02,028 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:02,062 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:02,063 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_15_224cfd22a1f63d75699b.png
+2022-01-10 02:17:02,072 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_15_c2f784bf16f4782a58b6.png
+2022-01-10 02:17:02,074 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:03,078 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:03,314 INFO    Thread-48 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3ufpx8bm-media/images/real_15_c2f784bf16f4782a58b6.png
+2022-01-10 02:17:03,503 INFO    Thread-49 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\12ljlons-media/images/fake_15_224cfd22a1f63d75699b.png
+2022-01-10 02:17:03,890 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:03,890 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_16_4f00844184bd085eb8d2.png with policy now
+2022-01-10 02:17:03,896 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:03,896 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_16_d682273e357b439fe6d0.png with policy now
+2022-01-10 02:17:03,908 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:03,909 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:03,910 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:04,096 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:04,097 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_16_4f00844184bd085eb8d2.png
+2022-01-10 02:17:04,097 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_16_d682273e357b439fe6d0.png
+2022-01-10 02:17:04,098 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:05,630 INFO    Thread-50 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\xg2pjn07-media/images/real_16_4f00844184bd085eb8d2.png
+2022-01-10 02:17:05,634 INFO    Thread-51 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1l5snhhu-media/images/fake_16_d682273e357b439fe6d0.png
+2022-01-10 02:17:05,665 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:05,666 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_17_6d04cba94c463d102e1f.png with policy now
+2022-01-10 02:17:05,674 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:05,675 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_17_8cf9f2f020c44c3fe893.png with policy now
+2022-01-10 02:17:05,690 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:05,691 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:05,692 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:06,128 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:06,128 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_17_8cf9f2f020c44c3fe893.png
+2022-01-10 02:17:06,129 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_17_6d04cba94c463d102e1f.png
+2022-01-10 02:17:06,129 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:07,301 INFO    Thread-53 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\dwtidaqb-media/images/fake_17_8cf9f2f020c44c3fe893.png
+2022-01-10 02:17:07,631 INFO    Thread-52 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\5u7ve6tc-media/images/real_17_6d04cba94c463d102e1f.png
+2022-01-10 02:17:07,691 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:07,692 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_18_41dc07cf60e2f2a74a54.png with policy now
+2022-01-10 02:17:07,700 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:07,700 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_18_68d391cb22f638e9cb9c.png with policy now
+2022-01-10 02:17:07,717 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:07,718 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:07,720 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:08,153 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:08,153 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_18_41dc07cf60e2f2a74a54.png
+2022-01-10 02:17:08,154 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_18_68d391cb22f638e9cb9c.png
+2022-01-10 02:17:08,155 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:09,500 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:09,501 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_19_74bb41c296d240b5b308.png with policy now
+2022-01-10 02:17:09,508 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:09,508 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_19_0e3d7964bcbc41b2f49d.png with policy now
+2022-01-10 02:17:09,523 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:09,524 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:09,526 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:09,901 INFO    Thread-55 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\njojuyno-media/images/fake_18_68d391cb22f638e9cb9c.png
+2022-01-10 02:17:09,901 INFO    Thread-54 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1nb4ks5h-media/images/real_18_41dc07cf60e2f2a74a54.png
+2022-01-10 02:17:10,180 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:10,182 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_19_0e3d7964bcbc41b2f49d.png
+2022-01-10 02:17:10,183 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_19_74bb41c296d240b5b308.png
+2022-01-10 02:17:10,183 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:10,938 INFO    Thread-56 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3g235slp-media/images/real_19_74bb41c296d240b5b308.png
+2022-01-10 02:17:11,212 INFO    Thread-57 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2rcycwgx-media/images/fake_19_0e3d7964bcbc41b2f49d.png
+2022-01-10 02:17:11,330 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:11,330 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_20_c27a46aa265d9517c4f1.png with policy now
+2022-01-10 02:17:11,341 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:11,341 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_20_67df289994b4f077ca84.png with policy now
+2022-01-10 02:17:11,356 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:11,356 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:11,359 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:12,198 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:12,199 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_20_c27a46aa265d9517c4f1.png
+2022-01-10 02:17:12,200 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_20_67df289994b4f077ca84.png
+2022-01-10 02:17:12,201 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:13,100 INFO    Thread-58 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\19ezqzcx-media/images/real_20_c27a46aa265d9517c4f1.png
+2022-01-10 02:17:13,100 INFO    Thread-59 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2m5d1qw7-media/images/fake_20_67df289994b4f077ca84.png
+2022-01-10 02:17:13,186 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:13,187 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_21_1b349cf435ccae0bb649.png with policy now
+2022-01-10 02:17:13,194 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:13,195 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_21_47390ce6670f1b9b23a7.png with policy now
+2022-01-10 02:17:13,209 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:13,209 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:13,211 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:13,216 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:13,222 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_21_47390ce6670f1b9b23a7.png
+2022-01-10 02:17:13,223 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_21_1b349cf435ccae0bb649.png
+2022-01-10 02:17:13,224 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:14,225 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:14,697 INFO    Thread-61 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1hy2bfmw-media/images/fake_21_47390ce6670f1b9b23a7.png
+2022-01-10 02:17:14,742 INFO    Thread-60 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\195m0fie-media/images/real_21_1b349cf435ccae0bb649.png
+2022-01-10 02:17:15,022 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:15,022 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_22_072a87b909d75225ab78.png with policy now
+2022-01-10 02:17:15,031 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:15,032 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_22_7b18502c84d84aba87e5.png with policy now
+2022-01-10 02:17:15,046 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:15,047 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:15,048 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:15,244 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:15,245 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_22_072a87b909d75225ab78.png
+2022-01-10 02:17:15,245 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_22_7b18502c84d84aba87e5.png
+2022-01-10 02:17:15,246 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:16,400 INFO    Thread-63 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\29hixtbi-media/images/fake_22_7b18502c84d84aba87e5.png
+2022-01-10 02:17:16,839 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:16,839 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_23_af2c1b1b03de10fe017e.png with policy now
+2022-01-10 02:17:16,846 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:16,846 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_23_f391c294db56c979ef8f.png with policy now
+2022-01-10 02:17:16,860 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:16,860 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:16,866 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:16,970 INFO    Thread-62 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1t1r9rxc-media/images/real_22_072a87b909d75225ab78.png
+2022-01-10 02:17:17,023 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:17:17,024 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:17:17,283 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:17,284 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_23_af2c1b1b03de10fe017e.png
+2022-01-10 02:17:17,285 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_23_f391c294db56c979ef8f.png
+2022-01-10 02:17:17,286 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:18,480 INFO    Thread-65 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2j369lsl-media/images/fake_23_f391c294db56c979ef8f.png
+2022-01-10 02:17:18,481 INFO    Thread-64 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3q377ur6-media/images/real_23_af2c1b1b03de10fe017e.png
+2022-01-10 02:17:18,805 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:18,805 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_24_d1c714a68c0148b7b403.png with policy now
+2022-01-10 02:17:18,815 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:18,816 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_24_731a3908736f519b0ec4.png with policy now
+2022-01-10 02:17:18,836 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:18,837 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:18,839 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:19,310 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:19,310 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_24_731a3908736f519b0ec4.png
+2022-01-10 02:17:19,311 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_24_d1c714a68c0148b7b403.png
+2022-01-10 02:17:19,311 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:20,228 INFO    Thread-66 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1wwvltmj-media/images/real_24_d1c714a68c0148b7b403.png
+2022-01-10 02:17:20,236 INFO    Thread-67 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3rl70m1w-media/images/fake_24_731a3908736f519b0ec4.png
+2022-01-10 02:17:20,789 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:20,790 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_25_e7b361f10b9106ca20a7.png with policy now
+2022-01-10 02:17:20,802 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:20,802 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_25_5ae5ec03c4b0bd35365e.png with policy now
+2022-01-10 02:17:20,820 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:20,820 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:20,822 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:21,355 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:21,356 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_25_e7b361f10b9106ca20a7.png
+2022-01-10 02:17:21,357 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_25_5ae5ec03c4b0bd35365e.png
+2022-01-10 02:17:21,357 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:22,282 INFO    Thread-69 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2z0qmihb-media/images/fake_25_5ae5ec03c4b0bd35365e.png
+2022-01-10 02:17:22,290 INFO    Thread-68 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2o16n0l9-media/images/real_25_e7b361f10b9106ca20a7.png
+2022-01-10 02:17:23,138 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:23,139 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_26_2268a61e5009d90129dd.png with policy now
+2022-01-10 02:17:23,151 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:23,151 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_26_1fcb5f613e06dbba38b2.png with policy now
+2022-01-10 02:17:23,168 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:23,169 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:23,170 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:23,387 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:23,388 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:23,389 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_26_2268a61e5009d90129dd.png
+2022-01-10 02:17:23,390 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_26_1fcb5f613e06dbba38b2.png
+2022-01-10 02:17:23,391 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:24,632 INFO    Thread-70 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\wi75ui39-media/images/real_26_2268a61e5009d90129dd.png
+2022-01-10 02:17:24,635 INFO    Thread-71 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\11ko13z2-media/images/fake_26_1fcb5f613e06dbba38b2.png
+2022-01-10 02:17:25,177 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:25,178 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_27_8cc1268fd921811e3875.png with policy now
+2022-01-10 02:17:25,189 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:25,190 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_27_4adaf2036da6ef6adc16.png with policy now
+2022-01-10 02:17:25,209 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:25,210 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:25,212 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:25,407 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:25,409 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_27_4adaf2036da6ef6adc16.png
+2022-01-10 02:17:25,410 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_27_8cc1268fd921811e3875.png
+2022-01-10 02:17:25,410 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:26,864 INFO    Thread-73 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\x7dvql6g-media/images/fake_27_4adaf2036da6ef6adc16.png
+2022-01-10 02:17:26,865 INFO    Thread-72 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2l2n3mkx-media/images/real_27_8cc1268fd921811e3875.png
+2022-01-10 02:17:26,939 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:26,939 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_28_f46ace4ce9ac0261df12.png with policy now
+2022-01-10 02:17:26,950 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:26,950 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_28_9602f075e29cb2bb0476.png with policy now
+2022-01-10 02:17:26,966 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:26,967 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:26,969 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:27,449 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:27,449 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_28_9602f075e29cb2bb0476.png
+2022-01-10 02:17:27,450 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_28_f46ace4ce9ac0261df12.png
+2022-01-10 02:17:27,450 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:28,578 INFO    Thread-74 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3cbdun1s-media/images/real_28_f46ace4ce9ac0261df12.png
+2022-01-10 02:17:28,711 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:28,712 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_29_b43c3f47d25cb6fe9550.png with policy now
+2022-01-10 02:17:28,723 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:28,724 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_29_c6746ccc333f50274fc4.png with policy now
+2022-01-10 02:17:28,742 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:28,742 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:28,744 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:29,432 INFO    Thread-75 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\39jj0rnp-media/images/fake_28_9602f075e29cb2bb0476.png
+2022-01-10 02:17:29,479 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:29,480 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_29_b43c3f47d25cb6fe9550.png
+2022-01-10 02:17:29,481 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_29_c6746ccc333f50274fc4.png
+2022-01-10 02:17:29,481 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:30,588 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:30,589 INFO    Thread-76 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2q0n0jkr-media/images/real_29_b43c3f47d25cb6fe9550.png
+2022-01-10 02:17:30,589 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_30_5da9a8900b2b3977b69a.png with policy now
+2022-01-10 02:17:30,603 INFO    Thread-77 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\369ih95k-media/images/fake_29_c6746ccc333f50274fc4.png
+2022-01-10 02:17:30,605 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:30,606 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_30_20ef53ca957acfeb533f.png with policy now
+2022-01-10 02:17:30,622 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:30,622 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:30,624 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:31,506 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:31,507 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_30_5da9a8900b2b3977b69a.png
+2022-01-10 02:17:31,508 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_30_20ef53ca957acfeb533f.png
+2022-01-10 02:17:31,509 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:32,217 INFO    Thread-79 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3wnuwona-media/images/fake_30_20ef53ca957acfeb533f.png
+2022-01-10 02:17:32,222 INFO    Thread-78 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1zhj1bhu-media/images/real_30_5da9a8900b2b3977b69a.png
+2022-01-10 02:17:32,523 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:32,545 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:32,545 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_31_6d058fccb9dfa666a5d2.png with policy now
+2022-01-10 02:17:32,557 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:32,557 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_31_358436433a31d59d3e2b.png with policy now
+2022-01-10 02:17:32,568 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:32,569 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:32,570 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:32,578 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:17:32,580 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:17:33,533 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:33,534 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_31_6d058fccb9dfa666a5d2.png
+2022-01-10 02:17:33,534 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_31_358436433a31d59d3e2b.png
+2022-01-10 02:17:33,535 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:34,147 INFO    Thread-80 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2yzisoco-media/images/real_31_6d058fccb9dfa666a5d2.png
+2022-01-10 02:17:34,279 INFO    Thread-81 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3eotb6w8-media/images/fake_31_358436433a31d59d3e2b.png
+2022-01-10 02:17:34,305 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:34,306 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_32_76ad654b4d3ea573f844.png with policy now
+2022-01-10 02:17:34,314 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:34,314 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_32_7231b4249cceb9b864eb.png with policy now
+2022-01-10 02:17:34,331 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:34,332 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:34,333 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:34,543 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:34,544 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_32_7231b4249cceb9b864eb.png
+2022-01-10 02:17:34,545 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_32_76ad654b4d3ea573f844.png
+2022-01-10 02:17:34,545 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:35,300 DEBUG   SenderThread:15892 [sender.py:send():234] send: stats
+2022-01-10 02:17:35,658 INFO    Thread-83 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\6kxvk81l-media/images/fake_32_7231b4249cceb9b864eb.png
+2022-01-10 02:17:36,102 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:36,102 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_33_1d88da5a4fda9da442f2.png with policy now
+2022-01-10 02:17:36,111 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:36,112 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_33_4b411d4d8fb0c4c142fc.png with policy now
+2022-01-10 02:17:36,127 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:36,127 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:36,129 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:36,142 INFO    Thread-82 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2jb1mk87-media/images/real_32_76ad654b4d3ea573f844.png
+2022-01-10 02:17:36,577 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:36,579 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_33_4b411d4d8fb0c4c142fc.png
+2022-01-10 02:17:36,579 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_33_1d88da5a4fda9da442f2.png
+2022-01-10 02:17:36,580 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:37,472 INFO    Thread-84 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\hzpucq4t-media/images/real_33_1d88da5a4fda9da442f2.png
+2022-01-10 02:17:37,936 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:37,937 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_34_07f16ea6e880190abebc.png with policy now
+2022-01-10 02:17:37,946 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:37,947 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_34_bbe00fb619e00caf6283.png with policy now
+2022-01-10 02:17:37,963 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:37,964 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:37,965 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:38,006 INFO    Thread-85 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1og3bdh2-media/images/fake_33_4b411d4d8fb0c4c142fc.png
+2022-01-10 02:17:38,608 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:38,608 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_34_bbe00fb619e00caf6283.png
+2022-01-10 02:17:38,609 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_34_07f16ea6e880190abebc.png
+2022-01-10 02:17:38,609 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:39,600 INFO    Thread-86 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2qnwwjd9-media/images/real_34_07f16ea6e880190abebc.png
+2022-01-10 02:17:39,622 INFO    Thread-87 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\22tpv147-media/images/fake_34_bbe00fb619e00caf6283.png
+2022-01-10 02:17:39,741 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:39,741 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_35_3eab35eff5dc11497200.png with policy now
+2022-01-10 02:17:39,754 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:39,755 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_35_09d867c485e2f56f041a.png with policy now
+2022-01-10 02:17:39,773 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:39,773 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:39,775 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:40,644 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:40,645 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:40,646 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_35_09d867c485e2f56f041a.png
+2022-01-10 02:17:40,647 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_35_3eab35eff5dc11497200.png
+2022-01-10 02:17:40,647 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:41,196 INFO    Thread-88 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\ogru3jem-media/images/real_35_3eab35eff5dc11497200.png
+2022-01-10 02:17:41,311 INFO    Thread-89 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3a9tyuju-media/images/fake_35_09d867c485e2f56f041a.png
+2022-01-10 02:17:41,630 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:41,631 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_36_76fe9f64a8f88c580712.png with policy now
+2022-01-10 02:17:41,647 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:41,647 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_36_57aff8e0f3dbb0502257.png with policy now
+2022-01-10 02:17:41,664 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:41,665 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:41,674 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:41,676 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_36_57aff8e0f3dbb0502257.png
+2022-01-10 02:17:41,678 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_36_76fe9f64a8f88c580712.png
+2022-01-10 02:17:41,679 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:42,694 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:43,446 INFO    Thread-91 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1tus8fw5-media/images/fake_36_57aff8e0f3dbb0502257.png
+2022-01-10 02:17:43,603 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:43,603 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_37_490b91637af09d7ae76a.png with policy now
+2022-01-10 02:17:43,615 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:43,615 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_37_b08c054a63101d5cce6b.png with policy now
+2022-01-10 02:17:43,634 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:43,635 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:43,636 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:43,727 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:43,728 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_37_490b91637af09d7ae76a.png
+2022-01-10 02:17:43,729 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_37_b08c054a63101d5cce6b.png
+2022-01-10 02:17:43,730 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:43,823 INFO    Thread-90 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2awz3kxv-media/images/real_36_76fe9f64a8f88c580712.png
+2022-01-10 02:17:45,419 INFO    Thread-93 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3f9caxhn-media/images/fake_37_b08c054a63101d5cce6b.png
+2022-01-10 02:17:45,436 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:45,437 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_38_127487491930e4a1423d.png with policy now
+2022-01-10 02:17:45,449 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:45,449 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_38_6b05856cbfd36c5f588f.png with policy now
+2022-01-10 02:17:45,466 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:45,466 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:45,468 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:45,498 INFO    Thread-92 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1u1eurt0-media/images/real_37_490b91637af09d7ae76a.png
+2022-01-10 02:17:45,769 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:45,769 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_38_127487491930e4a1423d.png
+2022-01-10 02:17:45,770 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_38_6b05856cbfd36c5f588f.png
+2022-01-10 02:17:45,770 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:47,019 INFO    Thread-94 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\575gx0cb-media/images/real_38_127487491930e4a1423d.png
+2022-01-10 02:17:47,161 INFO    Thread-95 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1y3vd4yj-media/images/fake_38_6b05856cbfd36c5f588f.png
+2022-01-10 02:17:47,291 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:47,291 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_39_7a7e132bb924e9f89caf.png with policy now
+2022-01-10 02:17:47,305 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:47,305 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_39_00a957886a22f0232f20.png with policy now
+2022-01-10 02:17:47,323 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:47,324 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:47,326 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:47,833 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:47,834 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_39_00a957886a22f0232f20.png
+2022-01-10 02:17:47,835 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_39_7a7e132bb924e9f89caf.png
+2022-01-10 02:17:47,835 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:48,274 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:17:48,274 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:17:48,908 INFO    Thread-97 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1a3389c0-media/images/fake_39_00a957886a22f0232f20.png
+2022-01-10 02:17:48,925 INFO    Thread-96 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\34c3wsmj-media/images/real_39_7a7e132bb924e9f89caf.png
+2022-01-10 02:17:49,155 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:49,156 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_40_e0f64af8de6db8ebc7ee.png with policy now
+2022-01-10 02:17:49,169 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:49,169 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_40_a20b47619097ae05c2d4.png with policy now
+2022-01-10 02:17:49,190 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:49,191 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:49,192 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:49,881 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:49,882 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_40_a20b47619097ae05c2d4.png
+2022-01-10 02:17:49,883 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_40_e0f64af8de6db8ebc7ee.png
+2022-01-10 02:17:49,883 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:51,000 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:51,001 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_41_5207640cf2a5e4f90d2b.png with policy now
+2022-01-10 02:17:51,012 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:51,013 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_41_5207640cf2a5e4f90d2b.png
+2022-01-10 02:17:51,014 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:51,015 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_41_53d3edd57e0dfaee6e41.png with policy now
+2022-01-10 02:17:51,033 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:51,035 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:51,035 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:51,037 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:51,179 INFO    Thread-98 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1miklb8k-media/images/real_40_e0f64af8de6db8ebc7ee.png
+2022-01-10 02:17:51,180 INFO    Thread-99 :15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\35rg3lyr-media/images/fake_40_a20b47619097ae05c2d4.png
+2022-01-10 02:17:52,030 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:52,031 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_41_53d3edd57e0dfaee6e41.png
+2022-01-10 02:17:52,031 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:52,745 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:52,745 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_42_86159645c76d2e147066.png with policy now
+2022-01-10 02:17:52,759 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:52,759 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_42_b8dd465d4123ac3ab2ff.png with policy now
+2022-01-10 02:17:52,781 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:52,781 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:52,783 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:52,825 INFO    Thread-100:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\b0hmnr1e-media/images/real_41_5207640cf2a5e4f90d2b.png
+2022-01-10 02:17:52,845 INFO    Thread-101:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3ldssq3c-media/images/fake_41_53d3edd57e0dfaee6e41.png
+2022-01-10 02:17:53,044 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:53,045 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_42_b8dd465d4123ac3ab2ff.png
+2022-01-10 02:17:53,046 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_42_86159645c76d2e147066.png
+2022-01-10 02:17:53,046 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:54,503 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:54,504 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_43_8b16dd32ca34b1e9e083.png with policy now
+2022-01-10 02:17:54,515 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:54,515 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_43_4f2b589b9d2734700015.png with policy now
+2022-01-10 02:17:54,533 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:54,533 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:54,537 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:54,589 INFO    Thread-102:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2093r9sq-media/images/real_42_86159645c76d2e147066.png
+2022-01-10 02:17:54,743 INFO    Thread-103:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\36nw04rs-media/images/fake_42_b8dd465d4123ac3ab2ff.png
+2022-01-10 02:17:54,941 INFO    Thread-104:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1wkcdhy3-media/images/real_41_5207640cf2a5e4f90d2b.png
+2022-01-10 02:17:55,085 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:55,085 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_43_4f2b589b9d2734700015.png
+2022-01-10 02:17:55,086 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_43_8b16dd32ca34b1e9e083.png
+2022-01-10 02:17:55,087 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:55,846 INFO    Thread-105:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\249p2wfj-media/images/real_43_8b16dd32ca34b1e9e083.png
+2022-01-10 02:17:56,167 INFO    Thread-106:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\yrhha7s9-media/images/fake_43_4f2b589b9d2734700015.png
+2022-01-10 02:17:56,226 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:56,226 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_44_3f9f4cc52bc65530311f.png with policy now
+2022-01-10 02:17:56,238 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:56,238 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_44_3e983f68d90821e177af.png with policy now
+2022-01-10 02:17:56,262 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:56,263 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:56,264 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:57,131 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:57,131 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_44_3e983f68d90821e177af.png
+2022-01-10 02:17:57,132 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_44_3f9f4cc52bc65530311f.png
+2022-01-10 02:17:57,132 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:57,899 INFO    Thread-107:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2coit0lq-media/images/real_44_3f9f4cc52bc65530311f.png
+2022-01-10 02:17:57,899 INFO    Thread-108:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\kjs5cd9c-media/images/fake_44_3e983f68d90821e177af.png
+2022-01-10 02:17:57,928 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:57,929 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_45_133b7ced3f9f1f98ea40.png with policy now
+2022-01-10 02:17:57,942 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:57,943 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_45_a5b06606a0dd78449d20.png with policy now
+2022-01-10 02:17:57,959 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:57,960 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:57,961 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:58,169 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:17:58,170 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_45_133b7ced3f9f1f98ea40.png
+2022-01-10 02:17:58,170 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_45_a5b06606a0dd78449d20.png
+2022-01-10 02:17:58,171 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:17:59,204 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:17:59,509 INFO    Thread-109:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2p17dadd-media/images/real_45_133b7ced3f9f1f98ea40.png
+2022-01-10 02:17:59,764 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:59,765 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_46_18755e0a70da5fc89877.png with policy now
+2022-01-10 02:17:59,781 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:17:59,782 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_46_404bf91a7075140f9bee.png with policy now
+2022-01-10 02:17:59,807 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:17:59,807 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:17:59,808 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:17:59,924 INFO    Thread-110:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\r70p262t-media/images/fake_45_a5b06606a0dd78449d20.png
+2022-01-10 02:18:00,250 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:18:00,250 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_46_404bf91a7075140f9bee.png
+2022-01-10 02:18:00,251 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_46_18755e0a70da5fc89877.png
+2022-01-10 02:18:00,252 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:18:01,250 INFO    Thread-111:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\1pixkvws-media/images/real_46_18755e0a70da5fc89877.png
+2022-01-10 02:18:01,585 INFO    Thread-112:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2kaeftfi-media/images/fake_46_404bf91a7075140f9bee.png
+2022-01-10 02:18:01,804 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:01,805 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_47_1521d9799a2d45edc3e5.png with policy now
+2022-01-10 02:18:01,818 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:01,818 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_47_ef18f3d5de4fe2a87041.png with policy now
+2022-01-10 02:18:01,844 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:18:01,844 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:18:01,846 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:18:02,289 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:18:02,290 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_47_ef18f3d5de4fe2a87041.png
+2022-01-10 02:18:02,291 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_47_1521d9799a2d45edc3e5.png
+2022-01-10 02:18:02,291 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:18:03,337 INFO    Thread-113:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\s98ql07t-media/images/real_47_1521d9799a2d45edc3e5.png
+2022-01-10 02:18:03,454 INFO    Thread-114:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3bv1efb2-media/images/fake_47_ef18f3d5de4fe2a87041.png
+2022-01-10 02:18:03,636 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:03,637 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_48_436c6642f1c4b11e2577.png with policy now
+2022-01-10 02:18:03,651 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:03,651 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_48_edc23bec1b9ff4d83dca.png with policy now
+2022-01-10 02:18:03,673 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:18:03,674 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:18:03,675 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:18:03,891 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-10 02:18:03,892 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: stop_status
+2022-01-10 02:18:05,325 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:18:05,325 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_48_436c6642f1c4b11e2577.png
+2022-01-10 02:18:05,326 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_48_edc23bec1b9ff4d83dca.png
+2022-01-10 02:18:05,326 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:18:05,375 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:05,376 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\real_49_1bf73acf660c30bf91df.png with policy now
+2022-01-10 02:18:05,399 DEBUG   SenderThread:15892 [sender.py:send():234] send: files
+2022-01-10 02:18:05,400 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file media\images\fake_49_3371b0f8c9a243e4cf6f.png with policy now
+2022-01-10 02:18:05,428 DEBUG   SenderThread:15892 [sender.py:send():234] send: history
+2022-01-10 02:18:05,429 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:18:05,433 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:18:05,788 INFO    Thread-115:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\3mbexc6d-media/images/real_48_436c6642f1c4b11e2577.png
+2022-01-10 02:18:05,811 INFO    Thread-116:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\m6fyj42s-media/images/fake_48_edc23bec1b9ff4d83dca.png
+2022-01-10 02:18:06,031 DEBUG   SenderThread:15892 [sender.py:send():234] send: telemetry
+2022-01-10 02:18:06,031 DEBUG   SenderThread:15892 [sender.py:send():234] send: exit
+2022-01-10 02:18:06,032 INFO    SenderThread:15892 [sender.py:send_exit():366] handling exit code: 0
+2022-01-10 02:18:06,032 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:06,032 INFO    SenderThread:15892 [sender.py:send_exit():368] handling runtime: 96
+2022-01-10 02:18:06,035 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:18:06,036 INFO    SenderThread:15892 [sender.py:send_exit():374] send defer
+2022-01-10 02:18:06,036 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:06,038 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,038 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 0
+2022-01-10 02:18:06,038 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,039 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-01-10 02:18:06,039 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 1
+2022-01-10 02:18:06,040 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,040 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 1
+2022-01-10 02:18:06,060 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,061 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-01-10 02:18:06,061 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 2
+2022-01-10 02:18:06,063 DEBUG   SenderThread:15892 [sender.py:send():234] send: stats
+2022-01-10 02:18:06,064 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,064 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 2
+2022-01-10 02:18:06,065 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,065 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-01-10 02:18:06,065 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 3
+2022-01-10 02:18:06,066 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,066 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 3
+2022-01-10 02:18:06,069 DEBUG   SenderThread:15892 [sender.py:send():234] send: summary
+2022-01-10 02:18:06,073 INFO    SenderThread:15892 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-10 02:18:06,073 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,073 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-01-10 02:18:06,074 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 4
+2022-01-10 02:18:06,074 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,074 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 4
+2022-01-10 02:18:06,075 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,075 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-01-10 02:18:06,188 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:06,626 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 5
+2022-01-10 02:18:06,627 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:06,628 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:06,628 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 5
+2022-01-10 02:18:06,628 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:06,628 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-01-10 02:18:06,628 INFO    SenderThread:15892 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-01-10 02:18:06,730 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,237 INFO    Thread-117:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\2c4x4qbn-media/images/real_49_1bf73acf660c30bf91df.png
+2022-01-10 02:18:07,340 INFO    Thread-12 :15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:18:07,352 INFO    SenderThread:15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:18:07,353 INFO    SenderThread:15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\config.yaml
+2022-01-10 02:18:07,353 INFO    SenderThread:15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_49_3371b0f8c9a243e4cf6f.png
+2022-01-10 02:18:07,354 INFO    SenderThread:15892 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_49_1bf73acf660c30bf91df.png
+2022-01-10 02:18:07,354 INFO    SenderThread:15892 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images
+2022-01-10 02:18:07,355 INFO    SenderThread:15892 [dir_watcher.py:finish():313] scan: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files
+2022-01-10 02:18:07,356 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\config.yaml config.yaml
+2022-01-10 02:18:07,356 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log output.log
+2022-01-10 02:18:07,358 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\requirements.txt requirements.txt
+2022-01-10 02:18:07,364 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-metadata.json wandb-metadata.json
+2022-01-10 02:18:07,364 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json wandb-summary.json
+2022-01-10 02:18:07,389 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_0_47980c52f0e57f53a37d.png media\images\fake_0_47980c52f0e57f53a37d.png
+2022-01-10 02:18:07,389 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_10_319ad1e9cb27a093312c.png media\images\fake_10_319ad1e9cb27a093312c.png
+2022-01-10 02:18:07,390 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_11_b7bf8d859484d64c9195.png media\images\fake_11_b7bf8d859484d64c9195.png
+2022-01-10 02:18:07,390 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_12_f15aac4d5d00404ddf27.png media\images\fake_12_f15aac4d5d00404ddf27.png
+2022-01-10 02:18:07,390 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_13_6685649c1327d147e84d.png media\images\fake_13_6685649c1327d147e84d.png
+2022-01-10 02:18:07,391 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_14_5675c2dff3ac93ea6778.png media\images\fake_14_5675c2dff3ac93ea6778.png
+2022-01-10 02:18:07,391 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_15_224cfd22a1f63d75699b.png media\images\fake_15_224cfd22a1f63d75699b.png
+2022-01-10 02:18:07,391 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_16_d682273e357b439fe6d0.png media\images\fake_16_d682273e357b439fe6d0.png
+2022-01-10 02:18:07,392 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_17_8cf9f2f020c44c3fe893.png media\images\fake_17_8cf9f2f020c44c3fe893.png
+2022-01-10 02:18:07,392 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_18_68d391cb22f638e9cb9c.png media\images\fake_18_68d391cb22f638e9cb9c.png
+2022-01-10 02:18:07,392 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_19_0e3d7964bcbc41b2f49d.png media\images\fake_19_0e3d7964bcbc41b2f49d.png
+2022-01-10 02:18:07,392 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_1_7c107eefd54e363b70ac.png media\images\fake_1_7c107eefd54e363b70ac.png
+2022-01-10 02:18:07,392 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_20_67df289994b4f077ca84.png media\images\fake_20_67df289994b4f077ca84.png
+2022-01-10 02:18:07,393 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_21_47390ce6670f1b9b23a7.png media\images\fake_21_47390ce6670f1b9b23a7.png
+2022-01-10 02:18:07,393 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_22_7b18502c84d84aba87e5.png media\images\fake_22_7b18502c84d84aba87e5.png
+2022-01-10 02:18:07,393 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_23_f391c294db56c979ef8f.png media\images\fake_23_f391c294db56c979ef8f.png
+2022-01-10 02:18:07,394 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_24_731a3908736f519b0ec4.png media\images\fake_24_731a3908736f519b0ec4.png
+2022-01-10 02:18:07,394 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_25_5ae5ec03c4b0bd35365e.png media\images\fake_25_5ae5ec03c4b0bd35365e.png
+2022-01-10 02:18:07,394 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_26_1fcb5f613e06dbba38b2.png media\images\fake_26_1fcb5f613e06dbba38b2.png
+2022-01-10 02:18:07,394 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_27_4adaf2036da6ef6adc16.png media\images\fake_27_4adaf2036da6ef6adc16.png
+2022-01-10 02:18:07,395 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_28_9602f075e29cb2bb0476.png media\images\fake_28_9602f075e29cb2bb0476.png
+2022-01-10 02:18:07,395 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_29_c6746ccc333f50274fc4.png media\images\fake_29_c6746ccc333f50274fc4.png
+2022-01-10 02:18:07,395 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_2_834350a92d86048446d0.png media\images\fake_2_834350a92d86048446d0.png
+2022-01-10 02:18:07,395 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_30_20ef53ca957acfeb533f.png media\images\fake_30_20ef53ca957acfeb533f.png
+2022-01-10 02:18:07,396 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_31_358436433a31d59d3e2b.png media\images\fake_31_358436433a31d59d3e2b.png
+2022-01-10 02:18:07,396 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_32_7231b4249cceb9b864eb.png media\images\fake_32_7231b4249cceb9b864eb.png
+2022-01-10 02:18:07,396 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_33_4b411d4d8fb0c4c142fc.png media\images\fake_33_4b411d4d8fb0c4c142fc.png
+2022-01-10 02:18:07,396 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_34_bbe00fb619e00caf6283.png media\images\fake_34_bbe00fb619e00caf6283.png
+2022-01-10 02:18:07,397 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_35_09d867c485e2f56f041a.png media\images\fake_35_09d867c485e2f56f041a.png
+2022-01-10 02:18:07,397 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_36_57aff8e0f3dbb0502257.png media\images\fake_36_57aff8e0f3dbb0502257.png
+2022-01-10 02:18:07,397 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_37_b08c054a63101d5cce6b.png media\images\fake_37_b08c054a63101d5cce6b.png
+2022-01-10 02:18:07,397 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_38_6b05856cbfd36c5f588f.png media\images\fake_38_6b05856cbfd36c5f588f.png
+2022-01-10 02:18:07,397 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_39_00a957886a22f0232f20.png media\images\fake_39_00a957886a22f0232f20.png
+2022-01-10 02:18:07,398 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_3_d281f491a79ece86282b.png media\images\fake_3_d281f491a79ece86282b.png
+2022-01-10 02:18:07,398 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_40_a20b47619097ae05c2d4.png media\images\fake_40_a20b47619097ae05c2d4.png
+2022-01-10 02:18:07,398 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_41_53d3edd57e0dfaee6e41.png media\images\fake_41_53d3edd57e0dfaee6e41.png
+2022-01-10 02:18:07,398 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_42_b8dd465d4123ac3ab2ff.png media\images\fake_42_b8dd465d4123ac3ab2ff.png
+2022-01-10 02:18:07,399 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_43_4f2b589b9d2734700015.png media\images\fake_43_4f2b589b9d2734700015.png
+2022-01-10 02:18:07,399 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_44_3e983f68d90821e177af.png media\images\fake_44_3e983f68d90821e177af.png
+2022-01-10 02:18:07,399 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_45_a5b06606a0dd78449d20.png media\images\fake_45_a5b06606a0dd78449d20.png
+2022-01-10 02:18:07,399 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_46_404bf91a7075140f9bee.png media\images\fake_46_404bf91a7075140f9bee.png
+2022-01-10 02:18:07,400 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_47_ef18f3d5de4fe2a87041.png media\images\fake_47_ef18f3d5de4fe2a87041.png
+2022-01-10 02:18:07,400 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_48_edc23bec1b9ff4d83dca.png media\images\fake_48_edc23bec1b9ff4d83dca.png
+2022-01-10 02:18:07,400 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_49_3371b0f8c9a243e4cf6f.png media\images\fake_49_3371b0f8c9a243e4cf6f.png
+2022-01-10 02:18:07,400 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_4_fd48cf325993f37d371a.png media\images\fake_4_fd48cf325993f37d371a.png
+2022-01-10 02:18:07,401 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_5_a38d68dbb822da23c5e1.png media\images\fake_5_a38d68dbb822da23c5e1.png
+2022-01-10 02:18:07,401 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_6_8c1f1e789714f3c609fa.png media\images\fake_6_8c1f1e789714f3c609fa.png
+2022-01-10 02:18:07,401 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_7_65a829e835f77c006265.png media\images\fake_7_65a829e835f77c006265.png
+2022-01-10 02:18:07,401 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_8_a19473f916389374620e.png media\images\fake_8_a19473f916389374620e.png
+2022-01-10 02:18:07,402 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\fake_9_d878695f213b3ab3df26.png media\images\fake_9_d878695f213b3ab3df26.png
+2022-01-10 02:18:07,402 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_0_121f898fe97c9363a28e.png media\images\real_0_121f898fe97c9363a28e.png
+2022-01-10 02:18:07,402 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_10_5abeb4c52c3a8ef95427.png media\images\real_10_5abeb4c52c3a8ef95427.png
+2022-01-10 02:18:07,402 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_11_31867c22fffc72a0336d.png media\images\real_11_31867c22fffc72a0336d.png
+2022-01-10 02:18:07,403 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_12_a63815e5ef69c52105d3.png media\images\real_12_a63815e5ef69c52105d3.png
+2022-01-10 02:18:07,403 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_13_ccc340dc55ea4d9cc94c.png media\images\real_13_ccc340dc55ea4d9cc94c.png
+2022-01-10 02:18:07,403 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_14_bc1df6a83e1b6ec2f1ad.png media\images\real_14_bc1df6a83e1b6ec2f1ad.png
+2022-01-10 02:18:07,403 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_15_c2f784bf16f4782a58b6.png media\images\real_15_c2f784bf16f4782a58b6.png
+2022-01-10 02:18:07,404 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_16_4f00844184bd085eb8d2.png media\images\real_16_4f00844184bd085eb8d2.png
+2022-01-10 02:18:07,404 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_17_6d04cba94c463d102e1f.png media\images\real_17_6d04cba94c463d102e1f.png
+2022-01-10 02:18:07,404 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_18_41dc07cf60e2f2a74a54.png media\images\real_18_41dc07cf60e2f2a74a54.png
+2022-01-10 02:18:07,405 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_19_74bb41c296d240b5b308.png media\images\real_19_74bb41c296d240b5b308.png
+2022-01-10 02:18:07,405 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_1_a32e2231f26ddddc3b70.png media\images\real_1_a32e2231f26ddddc3b70.png
+2022-01-10 02:18:07,405 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_20_c27a46aa265d9517c4f1.png media\images\real_20_c27a46aa265d9517c4f1.png
+2022-01-10 02:18:07,406 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_21_1b349cf435ccae0bb649.png media\images\real_21_1b349cf435ccae0bb649.png
+2022-01-10 02:18:07,406 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_22_072a87b909d75225ab78.png media\images\real_22_072a87b909d75225ab78.png
+2022-01-10 02:18:07,406 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_23_af2c1b1b03de10fe017e.png media\images\real_23_af2c1b1b03de10fe017e.png
+2022-01-10 02:18:07,406 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_24_d1c714a68c0148b7b403.png media\images\real_24_d1c714a68c0148b7b403.png
+2022-01-10 02:18:07,407 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_25_e7b361f10b9106ca20a7.png media\images\real_25_e7b361f10b9106ca20a7.png
+2022-01-10 02:18:07,407 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_26_2268a61e5009d90129dd.png media\images\real_26_2268a61e5009d90129dd.png
+2022-01-10 02:18:07,407 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_27_8cc1268fd921811e3875.png media\images\real_27_8cc1268fd921811e3875.png
+2022-01-10 02:18:07,408 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_28_f46ace4ce9ac0261df12.png media\images\real_28_f46ace4ce9ac0261df12.png
+2022-01-10 02:18:07,408 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_29_b43c3f47d25cb6fe9550.png media\images\real_29_b43c3f47d25cb6fe9550.png
+2022-01-10 02:18:07,408 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_2_4cd423ded1579487f715.png media\images\real_2_4cd423ded1579487f715.png
+2022-01-10 02:18:07,408 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_30_5da9a8900b2b3977b69a.png media\images\real_30_5da9a8900b2b3977b69a.png
+2022-01-10 02:18:07,409 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_31_6d058fccb9dfa666a5d2.png media\images\real_31_6d058fccb9dfa666a5d2.png
+2022-01-10 02:18:07,409 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_32_76ad654b4d3ea573f844.png media\images\real_32_76ad654b4d3ea573f844.png
+2022-01-10 02:18:07,409 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_33_1d88da5a4fda9da442f2.png media\images\real_33_1d88da5a4fda9da442f2.png
+2022-01-10 02:18:07,409 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_34_07f16ea6e880190abebc.png media\images\real_34_07f16ea6e880190abebc.png
+2022-01-10 02:18:07,410 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_35_3eab35eff5dc11497200.png media\images\real_35_3eab35eff5dc11497200.png
+2022-01-10 02:18:07,410 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_36_76fe9f64a8f88c580712.png media\images\real_36_76fe9f64a8f88c580712.png
+2022-01-10 02:18:07,410 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_37_490b91637af09d7ae76a.png media\images\real_37_490b91637af09d7ae76a.png
+2022-01-10 02:18:07,410 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_38_127487491930e4a1423d.png media\images\real_38_127487491930e4a1423d.png
+2022-01-10 02:18:07,410 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_39_7a7e132bb924e9f89caf.png media\images\real_39_7a7e132bb924e9f89caf.png
+2022-01-10 02:18:07,411 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_3_f9e3b3679f5ed2eadbb9.png media\images\real_3_f9e3b3679f5ed2eadbb9.png
+2022-01-10 02:18:07,411 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_40_e0f64af8de6db8ebc7ee.png media\images\real_40_e0f64af8de6db8ebc7ee.png
+2022-01-10 02:18:07,411 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_41_5207640cf2a5e4f90d2b.png media\images\real_41_5207640cf2a5e4f90d2b.png
+2022-01-10 02:18:07,411 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_42_86159645c76d2e147066.png media\images\real_42_86159645c76d2e147066.png
+2022-01-10 02:18:07,412 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_43_8b16dd32ca34b1e9e083.png media\images\real_43_8b16dd32ca34b1e9e083.png
+2022-01-10 02:18:07,412 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_44_3f9f4cc52bc65530311f.png media\images\real_44_3f9f4cc52bc65530311f.png
+2022-01-10 02:18:07,412 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_45_133b7ced3f9f1f98ea40.png media\images\real_45_133b7ced3f9f1f98ea40.png
+2022-01-10 02:18:07,412 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_46_18755e0a70da5fc89877.png media\images\real_46_18755e0a70da5fc89877.png
+2022-01-10 02:18:07,413 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_47_1521d9799a2d45edc3e5.png media\images\real_47_1521d9799a2d45edc3e5.png
+2022-01-10 02:18:07,413 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_48_436c6642f1c4b11e2577.png media\images\real_48_436c6642f1c4b11e2577.png
+2022-01-10 02:18:07,413 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_49_1bf73acf660c30bf91df.png media\images\real_49_1bf73acf660c30bf91df.png
+2022-01-10 02:18:07,413 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_4_817d763b382c5e614c69.png media\images\real_4_817d763b382c5e614c69.png
+2022-01-10 02:18:07,414 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_5_5424a19ac07216286a05.png media\images\real_5_5424a19ac07216286a05.png
+2022-01-10 02:18:07,414 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_6_67fa4134aa28feb4e18a.png media\images\real_6_67fa4134aa28feb4e18a.png
+2022-01-10 02:18:07,414 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_7_5069e5e9756e7b76e356.png media\images\real_7_5069e5e9756e7b76e356.png
+2022-01-10 02:18:07,414 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_8_a3ca71dbe5baecd18d9e.png media\images\real_8_a3ca71dbe5baecd18d9e.png
+2022-01-10 02:18:07,415 INFO    SenderThread:15892 [dir_watcher.py:finish():327] scan save: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\media\images\real_9_767b41a0d990fc4233ab.png media\images\real_9_767b41a0d990fc4233ab.png
+2022-01-10 02:18:07,415 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 6
+2022-01-10 02:18:07,415 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:07,416 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:07,416 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 6
+2022-01-10 02:18:07,417 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:07,417 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-01-10 02:18:07,417 INFO    SenderThread:15892 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-10 02:18:07,490 INFO    Thread-118:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\AppData\Local\Temp\tmpw93znom1wandb\unwbtpep-media/images/fake_49_3371b0f8c9a243e4cf6f.png
+2022-01-10 02:18:07,530 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,531 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:07,641 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,642 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:07,752 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,753 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:07,863 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,863 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:07,970 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:07,970 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,085 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,088 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,207 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,208 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,318 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,319 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,428 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,428 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,537 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,538 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,648 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,649 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,761 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,762 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,781 INFO    Thread-121:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\requirements.txt
+2022-01-10 02:18:08,782 INFO    Thread-120:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\output.log
+2022-01-10 02:18:08,855 INFO    Thread-119:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\config.yaml
+2022-01-10 02:18:08,869 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,870 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:08,904 INFO    Thread-122:15892 [upload_job.py:push():137] Uploaded file C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\files\wandb-summary.json
+2022-01-10 02:18:08,979 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:08,980 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:09,092 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:09,092 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:09,106 INFO    Thread-11 :15892 [sender.py:transition_state():387] send defer: 7
+2022-01-10 02:18:09,107 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:09,107 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 7
+2022-01-10 02:18:09,108 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:09,108 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-01-10 02:18:09,201 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:10,695 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 8
+2022-01-10 02:18:10,696 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:10,697 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:10,698 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 8
+2022-01-10 02:18:10,698 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:10,698 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-01-10 02:18:10,698 INFO    SenderThread:15892 [sender.py:transition_state():387] send defer: 9
+2022-01-10 02:18:10,700 DEBUG   SenderThread:15892 [sender.py:send():234] send: final
+2022-01-10 02:18:10,701 DEBUG   SenderThread:15892 [sender.py:send():234] send: footer
+2022-01-10 02:18:10,702 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: defer
+2022-01-10 02:18:10,704 INFO    HandlerThread:15892 [handler.py:handle_request_defer():147] handle defer: 9
+2022-01-10 02:18:10,705 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: defer
+2022-01-10 02:18:10,705 INFO    SenderThread:15892 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-01-10 02:18:10,812 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-10 02:18:10,812 DEBUG   SenderThread:15892 [sender.py:send_request():248] send_request: poll_exit
+2022-01-10 02:18:10,813 INFO    SenderThread:15892 [file_pusher.py:join():182] waiting for file pusher
+2022-01-10 02:18:11,978 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: get_summary
+2022-01-10 02:18:11,979 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: sampled_history
+2022-01-10 02:18:11,982 DEBUG   HandlerThread:15892 [handler.py:handle_request():130] handle_request: shutdown
+2022-01-10 02:18:11,982 INFO    HandlerThread:15892 [handler.py:finish():731] shutting down handler
+2022-01-10 02:18:12,726 INFO    WriterThread:15892 [datastore.py:close():281] close: C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_021623-o9r6yvht\run-o9r6yvht.wandb
+2022-01-10 02:18:12,979 INFO    SenderThread:15892 [sender.py:finish():1070] shutting down sender
+2022-01-10 02:18:12,979 INFO    SenderThread:15892 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-10 02:18:12,979 INFO    SenderThread:15892 [file_pusher.py:join():182] waiting for file pusher
+2022-01-10 02:18:13,105 INFO    MainThread:15892 [internal.py:handle_exit():77] Internal process exited

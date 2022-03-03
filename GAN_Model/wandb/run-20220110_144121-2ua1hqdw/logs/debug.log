@@ -1,0 +1,22 @@
+2022-01-10 14:41:21,429 INFO    MainThread:12340 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-10 14:41:21,430 INFO    MainThread:12340 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-10 14:41:21,430 INFO    MainThread:12340 [wandb_init.py:_log_setup():371] Logging user logs to C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_144121-2ua1hqdw\logs\debug.log
+2022-01-10 14:41:21,430 INFO    MainThread:12340 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Users\Hemanth\Notebooks\Project\Mini Project\pytorch-CycleGAN-and-pix2pix\wandb\run-20220110_144121-2ua1hqdw\logs\debug-internal.log
+2022-01-10 14:41:21,431 INFO    MainThread:12340 [wandb_init.py:init():404] calling init triggers
+2022-01-10 14:41:21,432 INFO    MainThread:12340 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'dataroot': './datasets/facades', 'name': 'facades_label2photo', 'use_wandb': True, 'gpu_ids': [], 'checkpoints_dir': './checkpoints', 'model': 'cycle_gan', 'input_nc': 3, 'output_nc': 3, 'ngf': 64, 'ndf': 64, 'netD': 'basic', 'netG': 'resnet_9blocks', 'n_layers_D': 3, 'norm': 'instance', 'init_type': 'normal', 'init_gain': 0.02, 'no_dropout': True, 'dataset_mode': 'unaligned', 'direction': 'AtoB', 'serial_batches': False, 'num_threads': 4, 'batch_size': 1, 'load_size': 286, 'crop_size': 256, 'max_dataset_size': inf, 'preprocess': 'resize_and_crop', 'no_flip': False, 'display_winsize': 256, 'epoch': 'latest', 'load_iter': 0, 'verbose': False, 'suffix': '', 'display_freq': 400, 'display_ncols': 4, 'display_id': 1, 'display_server': 'http://localhost', 'display_env': 'main', 'display_port': 8097, 'update_html_freq': 1000, 'print_freq': 100, 'no_html': False, 'save_latest_freq': 5000, 'save_epoch_freq': 5, 'save_by_iter': False, 'continue_train': False, 'epoch_count': 1, 'phase': 'train', 'n_epochs': 100, 'n_epochs_decay': 100, 'beta1': 0.5, 'lr': 0.0002, 'gan_mode': 'lsgan', 'pool_size': 50, 'lr_policy': 'linear', 'lr_decay_iters': 50, 'lambda_A': 10.0, 'lambda_B': 10.0, 'lambda_identity': 0.5, 'isTrain': True}
+2022-01-10 14:41:21,432 INFO    MainThread:12340 [wandb_init.py:init():460] starting backend
+2022-01-10 14:41:21,433 INFO    MainThread:12340 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-01-10 14:41:21,457 INFO    MainThread:12340 [backend.py:ensure_launched():216] starting backend process...
+2022-01-10 14:41:21,608 INFO    MainThread:12340 [backend.py:ensure_launched():222] started backend process with pid: 11044
+2022-01-10 14:41:21,609 INFO    MainThread:12340 [wandb_init.py:init():469] backend started and connected
+2022-01-10 14:41:21,611 INFO    MainThread:12340 [wandb_init.py:init():533] updated telemetry
+2022-01-10 14:41:21,688 INFO    MainThread:12340 [wandb_init.py:init():563] communicating current version
+2022-01-10 14:41:23,720 INFO    MainThread:12340 [wandb_init.py:init():568] got version response 
+2022-01-10 14:41:23,720 INFO    MainThread:12340 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-10 14:41:24,217 INFO    MainThread:12340 [wandb_init.py:init():606] starting run threads in backend
+2022-01-10 14:41:24,469 INFO    MainThread:12340 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-10 14:41:24,495 INFO    MainThread:12340 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-10 14:41:24,496 INFO    MainThread:12340 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-10 14:41:24,501 INFO    MainThread:12340 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-10 14:41:24,501 INFO    MainThread:12340 [wandb_init.py:init():633] run started, returning control to user process

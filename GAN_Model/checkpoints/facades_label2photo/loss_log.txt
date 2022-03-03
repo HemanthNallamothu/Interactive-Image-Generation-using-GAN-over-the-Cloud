@@ -1,0 +1,12 @@
+================ Training Loss (Sun Jan  9 18:24:12 2022) ================
+(epoch: 1, iters: 100, time: 16.232, data: 16.516) D_A: 0.442 G_A: 0.316 cycle_A: 2.493 idt_A: 0.648 D_B: 0.238 G_B: 0.511 cycle_B: 1.569 idt_B: 1.139 
+================ Training Loss (Sun Jan  9 22:22:44 2022) ================
+(epoch: 1, iters: 100, time: 21.833, data: 46.130) D_A: 0.256 G_A: 0.438 cycle_A: 1.907 idt_A: 0.820 D_B: 0.221 G_B: 0.617 cycle_B: 1.883 idt_B: 0.816 
+(epoch: 1, iters: 200, time: 19.348, data: 0.001) D_A: 0.235 G_A: 0.224 cycle_A: 3.218 idt_A: 0.665 D_B: 0.217 G_B: 0.500 cycle_B: 1.636 idt_B: 1.531 
+(epoch: 1, iters: 300, time: 17.435, data: 0.001) D_A: 0.304 G_A: 0.321 cycle_A: 1.594 idt_A: 0.577 D_B: 0.142 G_B: 0.813 cycle_B: 1.819 idt_B: 0.660 
+(epoch: 1, iters: 400, time: 58.135, data: 0.000) D_A: 0.332 G_A: 0.554 cycle_A: 2.319 idt_A: 0.508 D_B: 0.132 G_B: 0.315 cycle_B: 1.172 idt_B: 0.925 
+(epoch: 2, iters: 100, time: 37.689, data: 41.688) D_A: 0.158 G_A: 0.531 cycle_A: 1.842 idt_A: 0.522 D_B: 0.317 G_B: 0.145 cycle_B: 1.277 idt_B: 0.793 
+================ Training Loss (Mon Jan 10 14:41:24 2022) ================
+(epoch: 1, iters: 100, time: 19.199, data: 19.484) D_A: 0.349 G_A: 0.383 cycle_A: 1.957 idt_A: 0.499 D_B: 0.290 G_B: 0.519 cycle_B: 1.097 idt_B: 0.898 
+(epoch: 1, iters: 200, time: 21.949, data: 0.064) D_A: 0.297 G_A: 0.452 cycle_A: 2.558 idt_A: 0.739 D_B: 0.270 G_B: 0.414 cycle_B: 1.886 idt_B: 1.145 
+================ Training Loss (Tue Feb 22 12:23:01 2022) ================

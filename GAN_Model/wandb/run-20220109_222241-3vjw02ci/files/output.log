@@ -1,0 +1,409 @@
+create web directory ./checkpoints\facades_label2photo\web...
+learning rate 0.0002000 -> 0.0002000
+C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\optim\lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+(epoch: 1, iters: 100, time: 21.833, data: 46.130) D_A: 0.256 G_A: 0.438 cycle_A: 1.907 idt_A: 0.820 D_B: 0.221 G_B: 0.617 cycle_B: 1.883 idt_B: 0.816
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000251D006C708>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251D006C708>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251D006C708>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+(epoch: 1, iters: 200, time: 19.348, data: 0.001) D_A: 0.235 G_A: 0.224 cycle_A: 3.218 idt_A: 0.665 D_B: 0.217 G_B: 0.500 cycle_B: 1.636 idt_B: 1.531
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+Exception in user code:
+------------------------------------------------------------
+(epoch: 1, iters: 300, time: 17.435, data: 0.001) D_A: 0.304 G_A: 0.321 cycle_A: 1.594 idt_A: 0.577 D_B: 0.142 G_B: 0.813 cycle_B: 1.819 idt_B: 0.660
+Exception in user code:
+------------------------------------------------------------
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000251D0062748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251D0062748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251D0062748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000025181AFA148>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025181AFA148>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025181AFA148>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002518097E788>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002518097E788>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002518097E788>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002518097CA08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002518097CA08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002518097CA08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception in user code:
+------------------------------------------------------------
+(epoch: 1, iters: 400, time: 58.135, data: 0.000) D_A: 0.332 G_A: 0.554 cycle_A: 2.319 idt_A: 0.508 D_B: 0.132 G_B: 0.315 cycle_B: 1.172 idt_B: 0.925
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000025182175C08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025182175C08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025182175C08>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+End of epoch 1 / 200 	 Time Taken: 9116 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 2, iters: 100, time: 37.689, data: 41.688) D_A: 0.158 G_A: 0.531 cycle_A: 1.842 idt_A: 0.522 D_B: 0.317 G_B: 0.145 cycle_B: 1.277 idt_B: 0.793
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1323, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1272, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1032, in _send_output
+    self.send(msg)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 972, in send
+    self.connect()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000025182170748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025182170748>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 711, in _send
+    data=json.dumps(msg),
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\visdom\__init__.py", line 677, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hemanth\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
